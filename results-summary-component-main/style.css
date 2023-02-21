@@ -6,6 +6,7 @@ body {
   height: 100%;
   width: 100%;
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
 
 .attribution {
@@ -23,7 +24,8 @@ body {
   /* border: solid black 5px; */
   color: aliceblue;
 }
-.section-left {
+.section-left,
+.section-right {
   display: flex;
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   width: 50%;
@@ -55,28 +57,26 @@ body {
 .num76 {
   font-size: 40px;
   color: aliceblue;
+  font-weight: 600;
 }
 .great {
+  font-size: 18px;
   font-weight: 600;
   color: aliceblue;
 }
 .scored {
   align-items: center;
   justify-content: center;
+  font-size: 12px;
+  padding: 0 20px 0 20px;
 }
 .section-right {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  background-color: hsl(0, 0%, 100%);
-  color: black;
-  /* border: solid black 5px; */
-  width: 50%;
-  height: 300px;
-  align-items: start;
-  justify-content: space-evenly;
+  background: hsl(0, 0%, 100%);
+
+  font-weight: 600;
+
   border-radius: 25px;
-  padding: 10px;
+
   box-shadow: 0 5px 5px hsl(241, 100%, 89%);
 }
 ul {
@@ -84,7 +84,7 @@ ul {
   flex-direction: column;
   line-height: 30px;
   list-style: none;
-  padding: 0 0 0 20px;
+  padding: 0 0 0 15px;
   width: 90%;
   white-space: normal;
 }
