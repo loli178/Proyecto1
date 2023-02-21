@@ -1,4 +1,4 @@
-# Proyecto1
+# Proyecto prototype initial
 
 Imagenes iniciales de proyecto 1 a revisar
 
